@@ -1,9 +1,9 @@
 {
 	"versions": [
 		{
-			"pkgName": "Driver Engineering",
+			"pkgName": "DriverEngineering",
 			"label": "[0.0.2]",
-			"file": "river Engineering_v0_0_2",
+			"file": "DriverEngineering_v0_0_2",
 			"toolchain": "0.9.20",
 			"description": "Test",
 			"ver": "0.0.2",
