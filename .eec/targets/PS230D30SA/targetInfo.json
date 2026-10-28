@@ -1,0 +1,40 @@
+{
+	"devName": "PS230D30SA",
+	"devManId": 4,
+	"frameWorkVerA": 0,
+	"frameWorkVerB": 6,
+	"description": "Power regulator",
+	"frameworkSize": 80128,
+	"periphInfo": {
+		"isDesktop": false,
+		"isResourcesInternal": false,
+		"aoCount": 1,
+		"uartCount": 1,
+		"relayCount": 4,
+		"uiCount": 4,
+		"flashSize": 262144,
+		"ramSize": 65536,
+		"flashPageSize": 256
+	},
+	"triplet": "thumbv7m-none-none-eabi",
+	"stdlibPath": "lib/arm-none-eabi/picolibc/arm-none-eabi/lib/release/thumb/v7-m/nofp",
+	"stdlibUrl": "https://getfile.dokpub.com/yandex/get/https://disk.yandex.ru/d/TxwaYTSgJD-9cw",
+	"linkArgs": [
+		"ld.lld",
+		"@out_obj",
+		"-L",
+		"${eec_path}/lib/arm-none-eabi/picolibc/arm-none-eabi/lib/release/thumb/v7-m/nofp",
+		"-nostdlib",
+		"-lc",
+		"-lm",
+		"-L",
+		"${eec_path}/lib/clang_rt",
+		"-lclang_rt.builtins-armv7m",
+		"--format=elf",
+		"@out_link_map",
+		"@in_link_map",
+		"-o",
+		"@out_exe"
+	],
+	"isAlfSupport": true
+}

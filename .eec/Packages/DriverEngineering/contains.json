@@ -1,0 +1,8 @@
+{
+	"contains": [
+		"Packages/DriverEngineering",
+		"Samples/PS230D30SA",
+		"include/PS230D30SA",
+		"targets/PS230D30SA"
+	]
+}
