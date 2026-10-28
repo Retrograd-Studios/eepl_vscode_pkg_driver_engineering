@@ -7,8 +7,8 @@
 			"toolchain": "0.9.20",
 			"description": "Test",
 			"ver": "0.0.1",
-			"repo": "",
-			"archive": ""
+			"repo": "https://github.com/Retrograd-Studios/eepl_vscode_pkg_driver_engineering/raw/master/versions.json",
+			"archive": "https://github.com/Retrograd-Studios/eepl_vscode_pkg_driver_engineering/raw/v0_0_1/.eec.zip"
 		}
 	]
 }
