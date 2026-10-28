@@ -1,10 +1,10 @@
 {
-	"pkgName": "Driver Engineering",
-	"label": "[0.0.1]",
-	"file": "Driver Engineering_v0_0_1",
+	"pkgName": "DriverEngineering",
+	"label": "[0.0.2]",
+	"file": "DriverEngineering_v0_0_2",
 	"toolchain": "0.9.20",
 	"description": "Test",
-	"ver": "0.0.1",
-	"repo": "",
-	"archive": ""
+	"ver": "0.0.2",
+	"repo": "https://github.com/Retrograd-Studios/eepl_vscode_pkg_driver_engineering/raw/master/versions.json",
+	"archive": "https://github.com/Retrograd-Studios/eepl_vscode_pkg_driver_engineering/raw/v0_0_2/.eec.zip"
 }
